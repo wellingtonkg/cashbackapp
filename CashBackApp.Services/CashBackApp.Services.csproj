@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CashbackApp.Domain\CashBackApp.Domain.csproj" />
+    <ProjectReference Include="..\CashBackApp.Repositories\CashBackApp.Repositories.csproj" />
+  </ItemGroup>
+
+</Project>
