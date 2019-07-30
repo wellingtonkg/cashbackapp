@@ -1,7 +1,8 @@
 language: csharp
 mono: none
-dotnet: 2.1.0
+dotnet: 2.1
 dist: trusty
 script:
- - cd CashBackApp.Domain.Tests
- - dotnet test
+ - dotnet restore
+ - dotnet build
+ - dotnet test CashBackApp.Domain.Tests
