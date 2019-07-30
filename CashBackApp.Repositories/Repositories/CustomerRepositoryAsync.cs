@@ -17,6 +17,14 @@ namespace CashBackApp.Repositories.Repositories
             _context = context;
         }
 
+        /// <summary>
+        /// Get a list of customers paginated
+        /// </summary>
+        /// <param name="search">filter</param>
+        /// <param name="pageSize">Page Size</param>
+        /// <param name="page">Current page</param>
+        /// <param name="recordCount">Total of records</param>
+        /// <returns>List of customers</returns>
         public List<Customer> GetCustomers(string search, int pageSize, int page, out int recordCount)
         {
             var query = string.IsNullOrEmpty(search) ? FindBy(null) : FindBy(p => p.Name.ToLower().Contains(search.ToLower()));

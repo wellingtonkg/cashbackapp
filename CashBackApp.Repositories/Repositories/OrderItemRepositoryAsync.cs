@@ -24,6 +24,12 @@ namespace CashBackApp.Repositories.Repositories
             _cashbackSettingsRepositoryAsync = cashbackSettingsRepositoryAsync;
         }
 
+        /// <summary>
+        /// Calculate the values and cashback for OrderItem
+        /// </summary>
+        /// <param name="companyId">company Id</param>
+        /// <param name="date">Order Date</param>
+        /// <param name="orderItem">Order Item</param>
         public async void CalculateItem(Guid companyId, DateTime date, OrderItem orderItem)
         {
             var product = await _productRepositoryAsync.GetSingleAsync(orderItem.ProductId);

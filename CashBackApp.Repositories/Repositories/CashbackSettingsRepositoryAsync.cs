@@ -16,6 +16,13 @@ namespace CashBackApp.Repositories.Repositories
             _context = context;
         }
 
+        /// <summary>
+        /// Get the current Cashback
+        /// </summary>
+        /// <param name="companyId">Company Id</param>
+        /// <param name="genre">Genre</param>
+        /// <param name="dayOfWeek">Day of the week</param>
+        /// <returns></returns>
         public CashbackSettings GetCashbackByGenreAndDay(Guid companyId, GenreEnum genre, DayOfWeek dayOfWeek)
         {
             var result = FindBy(p =>

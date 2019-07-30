@@ -23,6 +23,12 @@ namespace CashBackApp.Integration.Spotify
             _clientSecret = clientSecret;
         }
 
+        /// <summary>
+        /// This method connect on the SpotyFy API and Get a list of Disks by Genre
+        /// </summary>
+        /// <param name="numberOfDisks">Number of disks</param>
+        /// <param name="genre">With genre</param>
+        /// <returns>List of products</returns>
         public List<Product> GetDisksByGenre(int numberOfDisks, GenreEnum genre)
         {
             var api = GetTokenAuth();
@@ -39,6 +45,10 @@ namespace CashBackApp.Integration.Spotify
             }).ToList();
         }
 
+        /// <summary>
+        /// Get a token for use in a SpotyFy API
+        /// </summary>
+        /// <returns></returns>
         private SpotifyWebAPI GetTokenAuth()
         {
             CredentialsAuth auth = new CredentialsAuth(_clientID, _clientSecret);

@@ -17,6 +17,10 @@ namespace CashBackApp.Repositories.Repositories
             _context = context;
         }
 
+        /// <summary>
+        /// Get the first company of database
+        /// </summary>
+        /// <returns>Company</returns>
         public Company GetFirstCompany()
         {
             return _context.Set<Company>().FirstOrDefault();

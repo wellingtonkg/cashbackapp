@@ -16,6 +16,14 @@ namespace CashBackApp.Repositories.Repositories
             _context = context;
         }
 
+        /// <summary>
+        /// Get a list of products (disks)
+        /// </summary>
+        /// <param name="genre">Genre of Disk</param>
+        /// <param name="pageSize">Number of items by page</param>
+        /// <param name="page">Current Page</param>
+        /// <param name="recordCount">Total of records</param>
+        /// <returns>List of disks</returns>
         public List<Product> GetProductsByGenre(GenreEnum genre, int pageSize, int page, out int recordCount)
         {
             var query = _context.Set<Product>().Where(p => p.Genre == genre);
