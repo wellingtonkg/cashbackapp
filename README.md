@@ -1,0 +1,1 @@
+[![Build Status](https://travis-ci.org/wellingtonkg/cashbackapp.svg?branch=master)](https://travis-ci.org/AaronLenoir/flaclibsharp)
