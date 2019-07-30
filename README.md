@@ -21,11 +21,11 @@ Ferramentas de CI
 
 Tecnologias Utilizadas
 ======================
-.NET Core 2.1
-ASP.NET WebApi Core
-Entity Framework Core 2.1
-Entity Framework Core 2.1 (InMemory)
-Swagger
+- .NET Core 2.1
+- ASP.NET WebApi Core
+- Entity Framework Core 2.1
+- Entity Framework Core 2.1 (InMemory)
+- Swagger
 
 Arquitetura
 ===========
