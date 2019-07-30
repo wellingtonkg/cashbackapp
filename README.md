@@ -13,6 +13,7 @@ Como rodar a aplicação
 =======================
 - Utilizar a versão 2.1 do SDK (https://dot.net/core)
 - Restaurar os pacotes
+- Setar o projeto Cashback.Service (Set as Startup Project)
 - Executar a aplicação através do visual studio e após iniciar será redirecionado para o Swagger, ou acesse a url: http://localhost:14275/swagger/index.html
 
 Ferramentas de CI
