@@ -3,23 +3,33 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashBackApp.Api", "CashBackApp\CashBackApp.Api.csproj", "{54DD51DC-DD86-499C-8DD0-D75FD03F4D2E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CashBackApp.Api", "CashBackApp\CashBackApp.Api.csproj", "{54DD51DC-DD86-499C-8DD0-D75FD03F4D2E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashBackApp.Domain", "CashbackApp.Domain\CashBackApp.Domain.csproj", "{E84BA5E4-01C1-462D-9810-D44094BFBEA7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CashBackApp.Domain", "CashbackApp.Domain\CashBackApp.Domain.csproj", "{E84BA5E4-01C1-462D-9810-D44094BFBEA7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashBackApp.Database", "CashBackApp.DAO\CashBackApp.Database.csproj", "{6240F5AD-BBB6-4F89-AA48-82257E9F233A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CashBackApp.Database", "CashBackApp.DAO\CashBackApp.Database.csproj", "{6240F5AD-BBB6-4F89-AA48-82257E9F233A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashBackApp.Repositories", "CashBackApp.Repositories\CashBackApp.Repositories.csproj", "{64C54B60-FA10-42EA-90BD-EBEFA951E120}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CashBackApp.Repositories", "CashBackApp.Repositories\CashBackApp.Repositories.csproj", "{64C54B60-FA10-42EA-90BD-EBEFA951E120}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashBackApp.Services", "CashBackApp.Services\CashBackApp.Services.csproj", "{8F0EB780-1E92-4C1B-AA8A-03AFC3A7FB36}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CashBackApp.Services", "CashBackApp.Services\CashBackApp.Services.csproj", "{8F0EB780-1E92-4C1B-AA8A-03AFC3A7FB36}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashBackApp.DependencyInjection", "CashBackApp.IoC\CashBackApp.DependencyInjection.csproj", "{A0BE5514-5915-414A-B06C-93CAF37E6E76}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CashBackApp.DependencyInjection", "CashBackApp.IoC\CashBackApp.DependencyInjection.csproj", "{A0BE5514-5915-414A-B06C-93CAF37E6E76}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashBackApp.Helper", "CashBackApp.Helper\CashBackApp.Helper.csproj", "{90CBFB10-31F1-40F0-83D4-6D290D9E3A76}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CashBackApp.Helper", "CashBackApp.Helper\CashBackApp.Helper.csproj", "{90CBFB10-31F1-40F0-83D4-6D290D9E3A76}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashBackApp.Integration.Spotify", "CashBackApp.Integration.Spotify\CashBackApp.Integration.Spotify.csproj", "{6438522F-0E1F-41A7-A990-F9CC27EDB326}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CashBackApp.Integration.Spotify", "CashBackApp.Integration.Spotify\CashBackApp.Integration.Spotify.csproj", "{6438522F-0E1F-41A7-A990-F9CC27EDB326}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashBackApp.Domain.Tests", "CashBackApp.Domain.Tests\CashBackApp.Domain.Tests.csproj", "{D829960C-8F66-4BF4-B919-751B5AB4FA0B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CashBackApp.Domain.Tests", "CashBackApp.Domain.Tests\CashBackApp.Domain.Tests.csproj", "{D829960C-8F66-4BF4-B919-751B5AB4FA0B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Apis", "1 - Apis", "{C206DD4B-7A1A-43B4-BADC-21427CDC3828}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Infra", "2 - Infra", "{8963C2F6-630D-433A-A2B7-944E3778E4D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - DAO", "3 - DAO", "{BAC822B7-BD25-4DE1-BAAF-DEEBB55156B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - External Solution", "4 - External Solution", "{3B366F83-18E4-40B7-9C1C-C95C2917A30A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Tests", "5 - Tests", "{6EDDC42E-793F-4188-A022-731F7E40BD5E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -66,6 +76,17 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{54DD51DC-DD86-499C-8DD0-D75FD03F4D2E} = {C206DD4B-7A1A-43B4-BADC-21427CDC3828}
+		{E84BA5E4-01C1-462D-9810-D44094BFBEA7} = {8963C2F6-630D-433A-A2B7-944E3778E4D0}
+		{6240F5AD-BBB6-4F89-AA48-82257E9F233A} = {8963C2F6-630D-433A-A2B7-944E3778E4D0}
+		{64C54B60-FA10-42EA-90BD-EBEFA951E120} = {BAC822B7-BD25-4DE1-BAAF-DEEBB55156B8}
+		{8F0EB780-1E92-4C1B-AA8A-03AFC3A7FB36} = {BAC822B7-BD25-4DE1-BAAF-DEEBB55156B8}
+		{A0BE5514-5915-414A-B06C-93CAF37E6E76} = {8963C2F6-630D-433A-A2B7-944E3778E4D0}
+		{90CBFB10-31F1-40F0-83D4-6D290D9E3A76} = {8963C2F6-630D-433A-A2B7-944E3778E4D0}
+		{6438522F-0E1F-41A7-A990-F9CC27EDB326} = {3B366F83-18E4-40B7-9C1C-C95C2917A30A}
+		{D829960C-8F66-4BF4-B919-751B5AB4FA0B} = {6EDDC42E-793F-4188-A022-731F7E40BD5E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4AC3694C-A616-41C0-AC54-3C9553F67B2B}

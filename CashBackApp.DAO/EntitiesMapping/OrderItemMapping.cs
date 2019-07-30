@@ -16,10 +16,6 @@ namespace CashBackApp.Database.EntitiesMapping
                 .HasColumnType("decimal(10, 2)")
                 .IsRequired();
 
-            builder.Property(m => m.Total)
-                .HasColumnType("decimal(10, 2)")
-                .IsRequired();
-
             builder.Property(m => m.CashbackSettingsId)
                 .IsRequired(false);
 

@@ -42,7 +42,7 @@ namespace CashBackApp.Services.Services
         private void CalculateTotal(Order order)
         {
             order.Total = order.OrderItems.Sum(s => s.Total);
-            order.CashbackTotal = order.OrderItems.Sum(s => s.CashbackValue);
+            order.CashbackTotal = Math.Round(order.OrderItems.Sum(s => s.CashbackValue), 2);
         }
     }
 }
